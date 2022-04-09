@@ -17,6 +17,8 @@ compile:
 	echo "Compiling c files.."
 	$(MAKE) -C $(SRC)
 
+run:
+	build/bin/a.out
 
 clean:
 	@echo "Cleaning project..."
